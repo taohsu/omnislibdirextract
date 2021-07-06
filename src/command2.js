@@ -90,7 +90,7 @@ UI.getInputFromUser(
 )
 
 console.log(ss);
-let libraryDirectories = []
+let libraryDirectories = [enabledLibraries[s].name + ' - ' + cmps[ss] + "\r\n"];
 
 for (let i = 0; i < libraryReferences.length; i++){
 
@@ -100,7 +100,7 @@ for (let i = 0; i < libraryReferences.length; i++){
 libraryDirectories = libraryDirectories.sort()
 console.log(libraryDirectories);
 
-
+    
 let display = libraryDirectories.join("\r\n");
 console.log(display);
 

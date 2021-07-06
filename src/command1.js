@@ -110,7 +110,7 @@ class TreeNode {
     }
 }
 
-const libraryTitle = new TreeNode(enabledLibraries[s].name + ' ' + cmps[ss]);
+const libraryTitle = new TreeNode(enabledLibraries[s].name + ' - ' + cmps[ss]);
 
 libraryDirectories.forEach(element => {
     DirectoryName = element.match(/[^\/]+/g);   
