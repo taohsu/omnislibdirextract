@@ -1,0 +1,31 @@
+{
+  "name": "omnislibdirextract",
+  "description": "",
+  "version": "1.0.0",
+  "engines": {
+    "sketch": ">=49.0"
+  },
+  "skpm": {
+    "name": "omnislibdirextract",
+    "manifest": "src/manifest.json",
+    "main": "omnislibdirextract.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/taohsu/omnislibdirextract.git"
+    },
+    "sketch-assets-file": "sketch-assets/icons.sketch"
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.7.0"
+  },
+  "author": "taohsu <ixmlmxi@gmail.com>"
+}
