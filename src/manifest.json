@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "identifier" : "sketch.plugin.OLDG",
+  "name" : "Omnis Library Directory Extract",
+  "version" : "0.1.0",
+  "description" : "Extract components' directory from the selected Sketch library",
+  "author" : "XU Tao",
+  "homepage": "https://github.com/taohsu/skeletongenerator",
+  "commands": [
+    {
+      "name": "Extract directory - Tree ",
+      "identifier": "Generate.tree",
+      "script": "./command1.js"
+    },
+    {
+      "name": "Extract directory - Path",
+      "identifier": "Generate.path",
+      "script": "./command2.js"
+    }
+  ],
+  "menu": {
+    "title": "Omnis Library Directory Extract",
+    "items": [
+      "Generate.tree","Generate.path"
+    ]
+  }
+}
