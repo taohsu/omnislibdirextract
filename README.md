@@ -1,4 +1,4 @@
-# omnislibdirextract
+# Omnis Library Directory Extract
 
 ## Installation
 
