@@ -22,3 +22,6 @@ It's simple to use with 3 steps:
 - [Download](../../releases/latest/download/omnislibdirextract.sketchplugin.zip) the latest release of the plugin
 - Un-zip
 - Double-click on omnislibdirextract.sketchplugin
+
+
+![GitHub repo card](https://user-images.githubusercontent.com/32646194/124616455-5ea04100-de76-11eb-942f-82e5199f2d8c.png)
