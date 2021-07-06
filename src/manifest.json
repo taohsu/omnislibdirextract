@@ -3,7 +3,7 @@
   "icon": "icon.png",
   "identifier" : "sketch.plugin.OLDG",
   "name" : "Omnis Library Directory Extract",
-  "version" : "0.1.0",
+  "version" : "2.0.4",
   "description" : "Extract components' directory from the selected Sketch library",
   "author" : "XU Tao",
   "homepage": "https://github.com/taohsu/skeletongenerator",
