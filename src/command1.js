@@ -150,9 +150,10 @@ var text = new Text({
   
   text: display,
   name: cmps[ss],
-  alignment: Text.Alignment.left,
+  //alignment: Text.Alignment.left,
   parent: thatPage,
   style: {
+    alignment: 'left',
     fontFamily: 'system',
     textColor: '#F16E00'
   }
