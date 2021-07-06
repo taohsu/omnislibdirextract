@@ -1,3 +1,5 @@
+![GitHub repo card](https://user-images.githubusercontent.com/32646194/124616455-5ea04100-de76-11eb-942f-82e5199f2d8c.png)
+
 # Omnis Library Directory Extract
 
 This tool helps your to extract the selected library's directories, include: symbols, layer styles, text styles and color swatches.
