@@ -1,6 +1,6 @@
 # Omnis Library Directory Extract
 
-This tool helps your to extract the selected library's directories, include: symbols, layer styles, text styles and color swatches.
+If you are working on a design system with multiple Sketch libraries, you might need to have a clear inventory of all the exist components of each library. This tool helps your to extract the selected library's components directories, include: symbols, layer styles, text styles and color swatches.
 
 It's simple to use with 3 steps: 
 
